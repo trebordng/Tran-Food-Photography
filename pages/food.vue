@@ -131,13 +131,13 @@ export default {
       this.myJson = newO;
       if (this.vieLanguage === true) {
         let filtered = _.filter(this.myJson, function (o) {
-          return o.vieTitle.includes(groupId.value);
+          return o.vieTitle.toLowerCase().includes(groupId.value.toLowerCase());
           
         });
         this.myJson = filtered;
       } else {
         let filtered = _.filter(this.myJson, function (o) {
-          return o.enTitle.includes(groupId.value);
+          return o.enTitle.toLowerCase().includes(groupId.value.toLowerCase());
           
         });
         this.myJson = filtered;

@@ -103,13 +103,13 @@ export default {
       this.blogData = this.blogData.filter((blog) => {
         if (this.vieLanguage === true) {
           return (
-            blog.vieTitle.toLowerCase().includes(this.groupId) ||
-            blog.vieShortDescription.toLowerCase().includes(this.groupId)
+            blog.vieTitle.toLowerCase().includes(this.groupId.toLowerCase()) ||
+            blog.vieShortDescription.toLowerCase().includes(this.groupId.toLowerCase())
           );
         } else {
           return (
-            blog.enTitle.toLowerCase().includes(this.groupId) ||
-            blog.enShortDescription.toLowerCase().includes(this.groupId)
+            blog.enTitle.toLowerCase().includes(this.groupId.toLowerCase()) ||
+            blog.enShortDescription.toLowerCase().includes(this.groupId.toLowerCase())
           );
         }
       });
