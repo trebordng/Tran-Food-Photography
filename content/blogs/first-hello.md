@@ -1,0 +1,25 @@
+---
+id: 1
+enTitle: My first blog
+vieTitle: Blog 1
+enShortDescription: this is a short description this is a short description this is a short description this is a short description this is a short description
+vieShortDescription: Đây là mô tả ngắn
+slug: first-hello 
+img: action-page.jpg
+
+enStartParagraph: this is where the warm up paragraph is
+vieStartParagraph: Đây là chỗ viết đoạn mở đầu
+img1: drink-page.jpg
+img2: food-page.jpg
+enFirstDescription: this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first descriptionthis is first descriptionthis is first descriptionthis is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first descriptionthis is first descriptionthis is first descriptionthis is first description this is first description
+vieFirstDescription: Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1Đây là đoạn 1 Đây là đoạn 1  Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1  Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1  Đây là đoạn 1 Đây là đoạn 1  Đây là đoạn 1  Đây là đoạn 1 Đây là đoạn 1  Đây là đoạn 1  Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1Đây là đoạn 1 Đây là đoạn 1  Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1  Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1  Đây là đoạn 1 Đây là đoạn 1  Đây là đoạn 1  Đây là đoạn 1 Đây là đoạn 1  Đây là đoạn 1 
+enSecondDescription: this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first descriptionthis is first descriptionthis is first descriptionthis is first description this is first description
+vieSecondDescription: Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1Đây là đoạn 1 Đây là đoạn 1  Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1  Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1  Đây là đoạn 1 Đây là đoạn 1  Đây là đoạn 1  Đây là đoạn 1 Đây là đoạn 1  Đây là đoạn 1 
+enEnding: this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first descriptionthis is first descriptionthis is first descriptionthis is first description this is first description
+vieEnding: this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first descriptionthis is first descriptionthis is first descriptionthis is first description this is first description
+
+backgroundEnding: action-page.jpg
+
+---
+
+

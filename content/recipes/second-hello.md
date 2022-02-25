@@ -1,0 +1,25 @@
+---
+id: 2
+enTitle: My second blog
+vieTitle: Blog 2
+description: abcd
+enShortDescription: this is a short description this is a short description this is a short description this is a short description this is a short description
+vieShortDescription: Đây là mô tả ngắn
+enStartParagraph: this is where the warm up paragraph is
+vieStartParagraph: Đây là chỗ viết đoạn mở đầu
+slug: second-hello 
+img: action-page.jpg
+img1: drink-page.jpg
+img2: food-page.jpg
+enFirstDescription: this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first descriptionthis is first descriptionthis is first descriptionthis is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first descriptionthis is first descriptionthis is first descriptionthis is first description this is first description
+vieFirstDescription: Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1Đây là đoạn 1 Đây là đoạn 1  Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1  Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1  Đây là đoạn 1 Đây là đoạn 1  Đây là đoạn 1  Đây là đoạn 1 Đây là đoạn 1  Đây là đoạn 1  Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1Đây là đoạn 1 Đây là đoạn 1  Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1  Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1  Đây là đoạn 1 Đây là đoạn 1  Đây là đoạn 1  Đây là đoạn 1 Đây là đoạn 1  Đây là đoạn 1 
+enSecondDescription: this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first descriptionthis is first descriptionthis is first descriptionthis is first description this is first description
+vieSecondDescription: Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1Đây là đoạn 1 Đây là đoạn 1  Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1  Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1 Đây là đoạn 1  Đây là đoạn 1 Đây là đoạn 1  Đây là đoạn 1  Đây là đoạn 1 Đây là đoạn 1  Đây là đoạn 1 
+enEnding: this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first descriptionthis is first descriptionthis is first descriptionthis is first description this is first description
+vieEnding: this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first description this is first descriptionthis is first descriptionthis is first descriptionthis is first description this is first description
+
+backgroundEnding: action-page.jpg
+---
+
+
+![Caption for the picture.](../blogs/action.png.png)
