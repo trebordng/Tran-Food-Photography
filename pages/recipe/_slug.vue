@@ -1,6 +1,7 @@
 <template>
   <article>
     <div class="album-pages blog-page fade-in">
+      <Spinner />
       <div class="album-pages-title">
         <h5 v-if="vieLanguage" class="orange-text big-title">
           {{ blog.vieTitle }}

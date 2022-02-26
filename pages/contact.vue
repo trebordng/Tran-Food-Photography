@@ -1,9 +1,10 @@
 <template>
   <div class="row">
+    <Spinner />
     <div class="col-lg-6 contact">
       <h2 class="orange-text page-title bold-text">{{ $t("contact") }}</h2>
     </div>
-    <div class="col-lg-6  contactRight fade-in">
+    <div class="col-lg-6  contactRight ">
       <form class="contact-form" ref="form" @submit.prevent="sendEmail">
         <label class="white-text bold-text block-label">{{ $t("name") }}</label>
         <input
@@ -47,7 +48,7 @@
         <button type="submit">
           <span>{{ $t("send") }}</span>
         </button>
-        <p v-if="successText" class="white-text">{{ $t("success") }}</p>
+        <p v-if="successText" class="orange-text">{{ $t("success") }}</p>
       </form>
     </div>
   </div>
@@ -68,6 +69,12 @@ export default {
     };
   },
   methods: {
+    successTextShow(){
+        this.successText=true;
+        setTimeout(()=>{
+          this.successText=false
+        },3000)
+    },
     sendEmail() {
       emailjs
         .sendForm(
@@ -85,7 +92,7 @@ export default {
           }
         );
 
-      this.successText = true;
+      this.successTextShow();
     },
   },
 };
@@ -98,6 +105,7 @@ export default {
   }
   
 }
+
 .text-box {
   color: #fefcff;
   border: 2px solid #fefcff;

@@ -1,5 +1,6 @@
 <template>
   <div class="album-pages">
+    <Spinner />
     <div class="row album-pages-title">
       <div class="col-lg-6">
         <h2 class="orange-text big-title">{{ $t("blog") }}</h2>
@@ -25,7 +26,7 @@
       </div>
     </div>
     <div class="blogs">
-      <div class="row fade-in">
+      <div class="row">
         <div
           class="col-lg-3 col-md-6 image-wrapper"
           v-for="blog of blogData"
@@ -70,7 +71,7 @@ export default {
         "vieShortDescription",
         "enShortDescription",
         "img",
-        "id"
+        "id",
       ])
       .sortBy("id", "asc")
       .fetch();
@@ -104,12 +105,16 @@ export default {
         if (this.vieLanguage === true) {
           return (
             blog.vieTitle.toLowerCase().includes(this.groupId.toLowerCase()) ||
-            blog.vieShortDescription.toLowerCase().includes(this.groupId.toLowerCase())
+            blog.vieShortDescription
+              .toLowerCase()
+              .includes(this.groupId.toLowerCase())
           );
         } else {
           return (
             blog.enTitle.toLowerCase().includes(this.groupId.toLowerCase()) ||
-            blog.enShortDescription.toLowerCase().includes(this.groupId.toLowerCase())
+            blog.enShortDescription
+              .toLowerCase()
+              .includes(this.groupId.toLowerCase())
           );
         }
       });

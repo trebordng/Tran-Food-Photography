@@ -1,5 +1,6 @@
 <template>
   <div class="album-pages">
+    <Spinner />
     <div class="row album-pages-title">
       <div class="col-lg-6">
         <h2 class="orange-text big-title">{{ $t("recipe") }}</h2>
@@ -25,7 +26,7 @@
       </div>
     </div>
     <div class="blogs">
-      <div class="row fade-in">
+      <div class="row ">
         <div
           class="col-lg-3 col-md-6 image-wrapper"
           v-for="blog of blogData"

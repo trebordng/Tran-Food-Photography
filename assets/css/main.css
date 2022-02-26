@@ -230,9 +230,20 @@ button:hover span:after {
 
 
 }
-
+.btn-close{
+  background:url(../image/close-button.png) !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  opacity: 0.7 !important;
+  width:0.5rem !important;
+  height: 0.5rem !important;
+}
+.btn-close:hover{
+  opacity:1 !important;
+}
 .image-size:hover {
   z-index: 2;
+  filter: brightness(0.8);
 }
 
 

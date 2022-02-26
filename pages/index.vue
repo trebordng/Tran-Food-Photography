@@ -1,5 +1,6 @@
 <template>
-  <div class="landing-page fade-in">
+  <div class="landing-page">
+    <Spinner />
     <div class="book-title">
       {{ $t("bookTitle") }}
     </div>

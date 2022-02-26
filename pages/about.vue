@@ -1,9 +1,11 @@
 <template>
+
   <div class="row">
+    <Spinner />
     <div class="col-lg-6 about">
       <h2 class="orange-text page-title bold-text">{{ $t("about") }}</h2>
     </div>
-    <div class="col-lg-6 col-md-12 col-sm-12 aboutRight fade-in">
+    <div class="col-lg-6 col-md-12 col-sm-12 aboutRight">
       <div class="about-content">
         <p class="white-text justify-text">
           <img src="../components/About me.jpg" class="about-image" />

@@ -1,10 +1,11 @@
-<template class="fade-in">
-  <div class="row album fade-in">
-    <h2 class="orange-text page-title" style="padding:4vh">
+<template >
+  <div class="row album">
+    <Spinner />
+    <h2 class="orange-text page-title" style="padding: 4vh">
       {{ $t("album") }}
     </h2>
 
-    <div class="col-lg-6 top-section fade-in">
+    <div class="col-lg-6 top-section">
       <nuxt-link :to="localePath('food')">
         <img
           src="../components/food-page.jpg"
@@ -16,7 +17,7 @@
         <h5 class="section-name white-text">{{ $t("food") }}</h5>
       </nuxt-link>
     </div>
-    <div class="col-lg-3 top-section fade-in">
+    <div class="col-lg-3 top-section">
       <nuxt-link :to="localePath('drink')">
         <img
           src="../components/drink-page.jpg"
@@ -28,7 +29,7 @@
         <h5 class="section-name white-text">{{ $t("drink") }}</h5>
       </nuxt-link>
     </div>
-    <div class="col-lg-3 top-section fade-in">
+    <div class="col-lg-3 top-section">
       <nuxt-link :to="localePath('action')">
         <img
           src="../components/action-page.jpg"
@@ -40,7 +41,7 @@
         <h5 class="section-name white-text">{{ $t("action") }}</h5>
       </nuxt-link>
     </div>
-    <div class="col-lg-6 bottom-section fade-in">
+    <div class="col-lg-6 bottom-section">
       <nuxt-link :to="localePath('lifestyle')">
         <img
           src="../components/lifestyle-page.jpg"
@@ -52,7 +53,7 @@
         <h5 class="section-name white-text">{{ $t("lifestyle") }}</h5>
       </nuxt-link>
     </div>
-    <div class="col-lg-6 bottom-section fade-in">
+    <div class="col-lg-6 bottom-section">
       <a href="https://tranphotographicart.com/" target="_blank">
         <img
           src="../components/food-page.jpg"
@@ -73,7 +74,7 @@ export default {
     return {
       title: "Album | Tran Food Photography",
     };
-  }
+  },
 };
 </script>
 
@@ -98,7 +99,6 @@ export default {
 .bottom-section:hover {
   display: inline-block;
   overflow: hidden;
-  
 }
 .image-section {
   object-fit: cover;
