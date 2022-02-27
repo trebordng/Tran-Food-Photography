@@ -4,7 +4,7 @@ body {
   overflow-x: hidden;
   padding: 0;
   margin: 0;
- 
+
 
 
 }
@@ -230,17 +230,20 @@ button:hover span:after {
 
 
 }
-.btn-close{
-  background:url(../image/close-button.png) !important;
+
+.btn-close {
+  background: url(../image/close-button.png) !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
   opacity: 0.7 !important;
-  width:0.5rem !important;
+  width: 0.5rem !important;
   height: 0.5rem !important;
 }
-.btn-close:hover{
-  opacity:1 !important;
+
+.btn-close:hover {
+  opacity: 1 !important;
 }
+
 .image-size:hover {
   z-index: 2;
   filter: brightness(0.8);
@@ -266,15 +269,17 @@ button:hover span:after {
   background-color: transparent;
   color: #cbc9cc;
 }
+
 .search-input:focus {
-  color:#fefcff;
+  color: #fefcff;
   background: rgba(203, 201, 204, 0.3);
   outline: none;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
-  border-color:#ff7517;
+  border-color: #ff7517;
 }
+
 .search-bar {
   display: flex;
   justify-content: flex-end;
@@ -297,6 +302,11 @@ button:hover span:after {
   left: 50%;
   text-align: center;
   z-index: 1;
+}
+
+.fancy-image {
+  display: none;
+  background: none;
 }
 
 .white-container {
@@ -409,40 +419,50 @@ button:hover span:after {
   text-align: justify;
   background-color: white;
 }
-@media only screen and (max-width: 1200px){
+
+@media only screen and (max-width: 1200px) {
   .album-pages-title {
     display: block !important;
   }
-  .search-bar{
-    display:block;
+
+  .search-bar {
+    display: block;
   }
-  .search-input{
-    margin-bottom:1vh;
+
+  .search-input {
+    margin-bottom: 1vh;
   }
 }
-@media only screen and (min-width:992px) and (max-width: 1550px){
-  .article-p{
-    font-size:13px;
+
+@media only screen and (min-width:992px) and (max-width: 1550px) {
+  .article-p {
+    font-size: 13px;
   }
-  .ending-text{
-    font-size:13px;
+
+  .ending-text {
+    font-size: 13px;
   }
-  .article-left-p-2-wrapper{
-    height:100vh;
+
+  .article-left-p-2-wrapper {
+    height: 100vh;
   }
-  .image-carousel{
+
+  .image-carousel {
     max-height: 100vh;
   }
- 
+
 }
+
 @media only screen and (max-width:992px) {
-  .article-p-wrapper{
-    height:auto;
-  }
-  .article-left-p-2-wrapper{
+  .article-p-wrapper {
     height: auto;
   }
-  .article-p-3-wrapper{
-    height:auto;
+
+  .article-left-p-2-wrapper {
+    height: auto;
+  }
+
+  .article-p-3-wrapper {
+    height: auto;
   }
 }
